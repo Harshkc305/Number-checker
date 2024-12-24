@@ -1,0 +1,73 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* ---------------------------------- */
+.Login {
+  background-image: linear-gradient(134deg, rgba(110, 49, 41, 0.5) 0%, rgba(110, 49, 41, 0.5) 14.286%,rgba(134, 48, 65, 0.5) 14.286%, rgba(134, 48, 65, 0.5) 28.572%,rgba(157, 46, 89, 0.5) 28.572%, rgba(157, 46, 89, 0.5) 42.858%,rgba(181, 45, 113, 0.5) 42.858%, rgba(181, 45, 113, 0.5) 57.144%,rgba(204, 43, 136, 0.5) 57.144%, rgba(204, 43, 136, 0.5) 71.43%,rgba(228, 42, 160, 0.5) 71.43%, rgba(228, 42, 160, 0.5) 85.716%,rgba(251, 40, 184, 0.5) 85.716%, rgba(251, 40, 184, 0.5) 100.002%),linear-gradient(122deg, rgb(223, 89, 139) 0%, rgb(223, 89, 139) 14.286%,rgb(195, 88, 127) 14.286%, rgb(195, 88, 127) 28.572%,rgb(167, 87, 116) 28.572%, rgb(167, 87, 116) 42.858%,rgb(140, 87, 104) 42.858%, rgb(140, 87, 104) 57.144%,rgb(112, 86, 92) 57.144%, rgb(112, 86, 92) 71.43%,rgb(84, 85, 81) 71.43%, rgb(84, 85, 81) 85.716%,rgb(56, 84, 69) 85.716%, rgb(56, 84, 69) 100.002%);  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.login-container {
+  max-width: 500px;
+  min-height: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: rgba(85, 87, 86, 0.657);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.login-container h2 {
+  color: aliceblue;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-group {
+  min-width: 400px;
+}
+.form-group label {
+  font-family: "Comfortaa", sans-serif;
+  color: aliceblue;
+  text-align: center;
+  display: block;
+}
+.form-group span {
+  color: rgb(184, 56, 56) !important;
+}
